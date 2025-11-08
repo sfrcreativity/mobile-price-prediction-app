@@ -1,0 +1,10 @@
+# Core ML + Data Science
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+
+# App framework
+streamlit
