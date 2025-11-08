@@ -269,11 +269,8 @@ elif menu_choice == "Accuracy Test":
 
 elif menu_choice == "About":
     st.header("About")
-    c1, c2 = st.columns(2)
-    with c1:
-        st.image()
-    with c2:
-        st.write("The app uses machine learning models to predict mobile phone prices based on various features. It is built using Streamlit and trained on a dataset of mobile phone specifications and their corresponding price ranges.")
-        st.write("Dataset Source: [Mobile Price Classification Dataset on Kaggle](https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification)")
-        st.write("Developed by: Syed Fazlur Rehman")
-        st.write("Version: 1.0")
+    st.write("The app uses machine learning models to predict mobile phone prices based on various features. It is built using Streamlit and trained on a dataset of mobile phone specifications and their corresponding price ranges.")
+    st.write("Dataset Source: [Mobile Price Classification Dataset on Kaggle](https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification)")
+    st.write("Project on github: [Click here](https://github.com/sfrcreativity/mobile-price-prediction-app)")
+    st.write("Developed by: Syed Fazlur Rehman")
+    st.write("Version: 1.0")
